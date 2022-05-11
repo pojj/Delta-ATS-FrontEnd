@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 //pojj pojj pojj pojj
-//merge test number 2
 
 function App() {
   return (
@@ -9,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save aaaaaaaaaaaaaaaato reload.
+          Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
