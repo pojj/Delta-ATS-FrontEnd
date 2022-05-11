@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 //pojj pojj pojj pojj
 // what how on earth do i merge branches
+// do i need to push otherwise it just commits to master???
 
 function App() {
   return (
