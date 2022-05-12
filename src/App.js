@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-//pog pog pog pog
+//pojj pojj pojj pojj
+// this file was in Master
+// change1
 
 function App() {
   return (
@@ -8,7 +10,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to among us reload.
+          Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
