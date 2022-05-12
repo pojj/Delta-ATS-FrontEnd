@@ -1,8 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-//pojj pojj pojj pojj
-// this file was in Master
-// change1
 
 function App() {
   return (
