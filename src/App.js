@@ -1,11 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 //pojj pojj pojj pojj
-//
-//
-//
-//
-//
+// This file was in Master
 
 function App() {
   return (
