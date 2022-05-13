@@ -1,3 +1,31 @@
-.big{
-    font-size : 10vw;
+.topPart{
+    height : 20vh;
+    width : 100%;
+}
+
+.content{
+    height: 80vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    font-size : 4.5vw;
+    font-weight: 700;
+}
+
+.divider{
+    height:5vh;
+}
+
+.bottomText{
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+.titleBox{
+    width:40%;
+    text-align: center;
 }
