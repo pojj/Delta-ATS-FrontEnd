@@ -1,14 +1,10 @@
 import './App.css';
-import Input from './Login'
+import LoginForm from './LoginForm';
 
 function App() {
   return (
-    <div className = "center">
-      <Input/>
-      <Input/>
-      <Input/>
-      <Input/>
-      <Input/> 
+    <div className="center">
+      <LoginForm />
     </div>
   );
 }
