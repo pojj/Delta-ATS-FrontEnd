@@ -8,12 +8,11 @@ export class Landing extends React.Component{
     render(){
         //this is the stuff at the top of the entire landing page
         //just sort of made sense to make it an object of some sort so its easier to move around
-        //how
         let topPart = 
         (
             <div className = "topPart">
                 <div className = "logo">
-                    <Image src = "./DeltaControlsLogo.png" className = "logoImg"/>
+                    <Image src = "./DeltaLogo.png" className = "logoImg"/>
                 </div>
                 <div className = "navButtons">
 
