@@ -37,6 +37,7 @@ export class LoginPage extends React.Component {
     }
 
     onChangeUser(e){
+        console.log(e);
         this.setState({
             username: e.target.value
         });
@@ -54,7 +55,7 @@ export class LoginPage extends React.Component {
 
                 <form onSubmit={this.search}>
                     <label>
-                        <input type="text" onChange={this.onChangeUser} placeholder="Username" />
+                        <input type="text" id = "powerpowerpower123" className = "asdasdasd" onChange={this.onChangeUser} placeholder="Username" />
                     </label>
                     <label>
                         <input type="text" onChange={this.onChangePass} placeholder="Password" />
