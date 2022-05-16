@@ -46,9 +46,9 @@ export class Landing extends React.Component{
                     <div className = "divider"/> <div className = "divider"/> <div className = "divider"/>
                     <div className = "textBox">
                         <p className = "bottomText">
-                            among us among us among us among us <br/>
-                            among us among us among us among us <br/>
-                            among us among us among us among us
+                            as an example: among the industries most <br/>
+                            respected, Delta Controls offeres you the <br/>
+                            coolest career path possible
                         </p>
                     </div>
                 </div>
