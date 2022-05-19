@@ -1,6 +1,6 @@
 import React from "react";
 import "./LoginForm.css"
-import Header from "./components/header";
+import Header from "./components/Header";
 import Button from 'react-bootstrap/Button';
 
 class LoginForm extends React.Component {
@@ -29,21 +29,27 @@ class LoginForm extends React.Component {
     render() {
         return (
             <div>
-                <Header/>
+                <Header btn="Click Me" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" />
+
                 <form onSubmit={this.handleSubmit}>
                     <h1><b>Login to your account</b></h1>
-                    <input type="text"
+                    <input
                         placeholder="Email"
                         onChange={this.handleEmailChange}
                         className="textbox" />
                     <br />
-                    <input type="text"
+
+                    <input
                         placeholder="Password"
                         onChange={this.handlePasswordChange}
                         className="textbox" />
                     <br />
+
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Forgot My Password</a>
+                    <br />
+
                     {/* This is using the pre-made button Components from Bootstrap */}
-                    <Button type="submit"   variant="danger" onClick={this.handleSubmit} className="rounded-pill">
+                    <Button type="submit" variant="danger" onClick={this.handleSubmit} className="rounded-pill">
                         Login
                     </Button>
                 </form>

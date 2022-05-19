@@ -1,10 +1,11 @@
 .textbox {
-    width: 100%;
-    height: 30%;
-    padding: 3% 3%;
-    margin: 2% 0%;
+    width: 50%;
+    height: 1%;
+    padding: 1% 1%;
+    margin: 0.5% 0%;
     box-sizing: border-box;
 }
+
 ::placeholder {
     color: #8D8D8D;
-  }
+}

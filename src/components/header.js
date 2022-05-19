@@ -1,6 +1,7 @@
 import React from "react";
-import "./header.css"
+import "./Header.css"
 import { Image } from 'react-bootstrap';
+
 
 class Header extends React.Component {
     constructor(props) {
@@ -9,21 +10,17 @@ class Header extends React.Component {
         this.state = { email: "", password: "" };
 
         this.topBar = (
-            <div className="topPart">
-
-
-                <div className="banner">
-                    <p>hi</p>
-                    </div>
-
-                
-                <div className="logo">
-                    <background-image src="./Header.svg" className="banner"/>
+            <div>
+                <div className="banner-grey">
+                    <Image src="./DeltaLogo.png" className="logoImg" onClick={() => { window.location.href = "https://deltacontrols.com/"; }} />
+                    <a href={props.href} className="nav-button">{props.btn}</a>
                 </div>
-
-            </div>
+                <div className="banner-red">
+                </div>
+            </div >
         );
     }
+
     render() {
         return (<div>{this.topBar}</div>)
     }

@@ -1,87 +1,40 @@
-.banner{
-    width : 100vw;
-    height : 20vh;
-    background-image: url("/public/Header.svg");
+.banner-grey {
+    width: 100vw;
+    height: 7vh;
+    /*background-image: url("/public/header.svg"); */
+    background-image: linear-gradient(to right, #C7C7C7, white);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.content{
-    height: 80vh;
-    width:100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.banner-red {
+    width: 100vw;
+    height: 3vh;
+    /*background-image: url("/public/header.svg"); */
+    background-image: linear-gradient(to right, #E51937, white);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-.title{
-    font-size : 4.5vw;
-    font-weight: 700;
-}
-
-.divider{
-    height:5vh;
-}
-
-.bottomText{
-    font-size: 1.5vw;
-    font-weight: 400;
-}
-
-.titleBox{
-    width:40%;
-    text-align: center;
-}
-
-.logo{
-    width:30%;
-    height:80%;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
-
-.logoImg{
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 80%;
-    margin-left: 10%;
-}
-
-.navButtons{
-    width: 70%;
-    height: 80%;
-    padding-right: 3%;
-    flex-direction: row-reverse;
-    align-items: center;
-    display: flex;
-    justify-content: right;
-}
-
-.topButton{
-    margin-left:5%;
-    margin-right:5%;
-}
-
-.textButton{
-    font-size: 2vw;
-    color:black;
+.nav-button {
+    display: block;
+    float: right;
+    font-size: 3vh;
+    color: #000;
     text-decoration: none;
+    margin-top: 1.3vh;
+    margin-right: 3vw;
 }
 
-.textButton:hover{
+.nav-button:hover {
     color: black;
 }
 
-.register{
-    margin-right: 3%;
-    width:15%;
-    height:45%;
-    font-size:1.5vw;
-    font-weight: 700;
-    text-align: center;
-    color:white;
-    background-color:#E51937;
-    border:none;
+.logoImg {
+    display: block;
+    float: left;
+    /* So "controls" is displayed on the gray stripe */
+    height: 9.7vh;
+    width: auto;
+    margin-left: 1vw;
 }
