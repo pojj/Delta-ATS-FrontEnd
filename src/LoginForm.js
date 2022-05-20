@@ -2,6 +2,7 @@ import React from "react";
 import "./LoginForm.css"
 import Header from "./components/Header";
 import Button from 'react-bootstrap/Button';
+import axios from "axios";
 
 class LoginForm extends React.Component {
     constructor(props) {
@@ -21,9 +22,18 @@ class LoginForm extends React.Component {
         this.setState({ password: e.target.value });
     }
 
-    handleSubmit(e) {
+    async handleSubmit(e) {
         e.preventDefault();
-        alert("Email: " + this.state.email + ", Password: " + this.state.password)
+
+        await axios.post("http://locahlost:3001", this.state)
+        .then(res => {
+            console.log("worked");
+        })
+        .catch(err => {
+            console.log("pass and email not matching");
+        })
+
+        //alert("Email: " + this.state.email + ", Password: " + this.state.password);
     }
 
     render() {
