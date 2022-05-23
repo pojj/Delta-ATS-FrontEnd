@@ -24,11 +24,11 @@ export class Landing extends React.Component {
                             Login
                         </a>
 
-                        <a href='https://www.google.com/' className="topButton textButton">
+                        <a href='https://deltacontrols.com/about/' className="topButton textButton">
                             About
                         </a>
 
-                        <a href='https://www.google.com/' className="topButton textButton">
+                        <a href='https://deltacontrols.com/contact-us/' className="topButton textButton">
                             Contact Us
                         </a>
                     </div>
