@@ -22,7 +22,7 @@ export class EditAbout extends React.Component {
     async submitInfo(e){
         e.preventDefault();
         console.log("asd");
-        
+
         await axios.post("http://localhost:3001", this.state)
         .then(res => {
             console.log("asd");
