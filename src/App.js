@@ -1,5 +1,6 @@
 import './App.css';
 import {Landing} from "./landing.js";
+import { EditAbout } from './aboutPage/editAbout';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -8,8 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-      <Landing />
-      
+      <EditAbout />
     </div>
   );
 }
