@@ -25,12 +25,12 @@ class LoginForm extends React.Component {
     async handleSubmit(e) {
         e.preventDefault();
 
-        await axios.post("http://locahlost:3001", this.state)
+        await axios.post("http://localhost:3001", this.state)
         .then(res => {
             console.log("worked");
         })
         .catch(err => {
-            console.log("pass and email not matching");
+            console.log("password and email not matching");
         })
 
         //alert("Email: " + this.state.email + ", Password: " + this.state.password);
@@ -39,7 +39,7 @@ class LoginForm extends React.Component {
     render() {
         return (
             <div>
-                <Header btn="Click Me" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" />
+                <Header btn="Register" href="https://www.google.com/" />
 
                 <form onSubmit={this.handleSubmit} className="form-area center">
                     <h1><b>Login to your account</b></h1>
@@ -59,7 +59,7 @@ class LoginForm extends React.Component {
                     <br />
 
                     <div className="right-align">
-                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Forgot My Password</a>
+                        <a href="https://www.google.com/">Forgot My Password</a>
                         <br />
 
                         {/* This is using the pre-made button Components from Bootstrap */}
