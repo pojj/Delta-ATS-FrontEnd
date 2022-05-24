@@ -12,7 +12,7 @@ class Header extends React.Component {
         this.topBar = (
             <div>
                 <div className="banner-grey">
-                    <Image src="./DeltaLogo.png" className="logoImg" onClick={() => { window.location.href = "https://deltacontrols.com/"; }} />
+                    <Image src="./DeltaLogoModified.png" className="logoImg" onClick={() => { window.location.href = "https://deltacontrols.com/"; }} />
                     <a href={props.href} className="nav-button">{props.btn}</a>
                 </div>
                 <div className="banner-red">
