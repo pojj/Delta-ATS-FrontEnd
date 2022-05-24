@@ -24,7 +24,7 @@ class LoginForm extends React.Component {
 
   async handleSubmit(e) {
     e.preventDefault();
-    await axios.post("http://localhost:3001", this.state)
+    await axios.post("http://localhost:3001/users/authenticate", this.state)
     .then(res => {
         if (res.data.length > 0){
             alert("success");
