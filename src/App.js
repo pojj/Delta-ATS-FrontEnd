@@ -1,15 +1,10 @@
 import './App.css';
-import {Landing} from "./landing.js";
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-
-//each part of the page will be added as a component
+import LoginForm from './LoginForm';
 
 function App() {
   return (
-    <div className="App">
-      <Landing />
-      
+    <div>
+      <LoginForm />
     </div>
   );
 }

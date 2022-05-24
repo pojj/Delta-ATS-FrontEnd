@@ -12,7 +12,9 @@ export class Landing extends React.Component {
             (
                 <div className="topPart">
                     <div className="logo">
-                        <Image src="./DeltaLogo.png" className="logoImg" />
+                        <a href = "https://deltacontrols.com/" className = "logoLink">
+                            <Image src="./DeltaLogo.png" className="logoImg" />
+                        </a>
                     </div>
                     <div className="navButtons">
 
@@ -24,11 +26,11 @@ export class Landing extends React.Component {
                             Login
                         </a>
 
-                        <a href='https://www.google.com/' className="topButton textButton">
+                        <a href='https://deltacontrols.com/about/' className="topButton textButton">
                             About
                         </a>
 
-                        <a href='https://www.google.com/' className="topButton textButton">
+                        <a href='https://deltacontrols.com/contact-us/' className="topButton textButton">
                             Contact Us
                         </a>
                     </div>
