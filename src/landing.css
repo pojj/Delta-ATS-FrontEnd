@@ -13,8 +13,8 @@
 
   background-image: url("/public/mess.png");
   background-size: 160%;
-  background-position-x: 70%;
-  background-position-y: -17%;
+  background-position-x: center;
+  background-position-y: 14vh;
   background-repeat: no-repeat;
 }
 
