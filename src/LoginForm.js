@@ -24,17 +24,18 @@ class LoginForm extends React.Component {
 
   async handleSubmit(e) {
     e.preventDefault();
-
-    await axios
-      .post("http://localhost:3001", this.state)
-      .then((res) => {
-        console.log("worked");
-      })
-      .catch((err) => {
-        console.log("password and email not matching");
-      });
-
-    //alert("Email: " + this.state.email + ", Password: " + this.state.password);
+    await axios.post("http://localhost:3001", this.state)
+    .then(res => {
+        if (res.data.length > 0){
+            alert("success");
+        }
+        else{
+            alert("password and email not matching")
+        }
+    })
+    .catch(err => {
+        console.log("error");
+    })
   }
 
   render() {
