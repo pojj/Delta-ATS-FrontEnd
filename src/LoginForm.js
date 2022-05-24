@@ -25,7 +25,7 @@ class LoginForm extends React.Component {
     async handleSubmit(e) {
         e.preventDefault();
 
-        await axios.post("http://localhost:3001", this.state)
+        await axios.post("http://localhost:3001/authenticate", this.state)
         .then(res => {
             console.log("worked");
         })
@@ -34,6 +34,20 @@ class LoginForm extends React.Component {
         })
 
         //alert("Email: " + this.state.email + ", Password: " + this.state.password);
+    }
+
+    async readToken() {
+        await axios.get("http://localhost:3001/read-token")
+        .then(res => {
+            console.log("already logged in");
+        })
+        .catch(err => {
+            console.log("not yet logged in");
+        })
+    }
+
+    componentDidMount() {
+        this.readToken();
     }
 
     render() {
