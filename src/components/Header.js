@@ -11,13 +11,12 @@ class Header extends React.Component {
     this.topBar = (
       <div>
         <div className="banner-grey">
-          <Image
-            src="./DeltaLogoModified.png"
-            className="logo-img-modified"
-            onClick={() => {
-              window.location.href = "/";
-            }}
-          />
+          <a href="/">
+            <Image
+              src="./DeltaLogoModified.png"
+              className="logo-img-modified"
+            />
+          </a>
           <a href={props.href} className="nav-button">
             {props.btn}
           </a>
